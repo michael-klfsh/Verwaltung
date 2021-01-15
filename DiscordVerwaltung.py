@@ -1,5 +1,6 @@
 import discord
 import random
+import config
 #import discord.Guild
 
 class MyClient(discord.Client):
@@ -70,4 +71,4 @@ class MyClient(discord.Client):
         return "Error"
 
 client = MyClient()
-client.run("NjkxMDUxMTE2MzkzMjY3MjQw.Xnat2g.s_9_Q1GawDi81hv0Vzws9LbVZZw")
+client.run(config.token)
