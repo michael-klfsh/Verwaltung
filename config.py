@@ -1,1 +1,1 @@
-token = ""
+token = "test"
